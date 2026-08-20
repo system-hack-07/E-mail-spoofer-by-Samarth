@@ -1,4 +1,3 @@
-cat > vercel.json << 'EOF'
 {
   "version": 2,
   "builds": [
@@ -19,4 +18,4 @@ cat > vercel.json << 'EOF'
     }
   ]
 }
-EOF
+
