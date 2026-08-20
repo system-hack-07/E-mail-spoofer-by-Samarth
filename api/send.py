@@ -1,5 +1,4 @@
-mkdir -p api
-cat > api/send.py << 'EOF'
+
 import requests
 import json
 from flask import Flask, request, jsonify
@@ -50,4 +49,3 @@ def send_email():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-EOF
